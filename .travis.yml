@@ -15,6 +15,7 @@ deploy:
   env: "Docker-env"
   bucket_name: "docker409"
   bucket_path: "docker"
+  edge: true
   On:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
