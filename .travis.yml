@@ -13,7 +13,7 @@ deploy:
   region: "ca-central-1"
   app: "docker"
   env: "Docker-env"
-  bucket_name: "docker409"
+  bucket_name: "elasticbeanstalk-ca-central-1-011908850102"
   bucket_path: "docker"
   On:
     branch: master
